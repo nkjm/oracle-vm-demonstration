@@ -1,0 +1,179 @@
+* {
+margin:0;
+padding:0;
+}
+
+#top {
+text-align: right;
+}
+
+#middle {
+}
+
+#bottom {
+font-size: 0.9em;
+height: 50px;
+text-align: center;
+}
+
+body {
+font-family: Cuprum;
+}
+
+h3 {
+border-bottom: solid 1px #000000;
+}
+
+form {
+margin: 0;
+padding: 0;
+}
+
+a {
+color: #cc0000;
+font-size: 1.0em;
+padding: 0px 2px 0px 2px;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+th {
+border-right: solid 3px #ffffff;
+border-bottom: solid 1px #000000;
+border-left: solid 3px #ffffff;
+}
+
+td {
+text-align: center;
+border-right: solid 3px #ffffff;
+border-bottom: solid 1px #cccccc;
+border-left: solid 3px #ffffff;
+}
+
+#new_vm_form td {
+text-align: right;
+border-right: solid 0px #ffffff;
+border-bottom: solid 0px #cccccc;
+border-left: solid 0px #ffffff;
+padding: 5px;
+}
+
+.vm {
+padding-bottom: 6px;
+margin-bottom: 30px;
+position:relative;
+}
+
+.vm .vm_switch_power {
+width:32px;
+height:32px;
+cursor:pointer;
+}
+
+.vm .vm_delete {
+background:url('../img/delete.png') no-repeat;
+width:32px;
+height:32px;
+cursor:pointer;
+}
+
+.new {
+cursor: pointer;
+}
+
+.new:hover {
+color: #ff0000;
+}
+
+.vm a img {
+display:block;
+border:none;
+}
+
+.switch {
+padding: 5px;
+}
+
+.selected {
+color: #ffffff;
+background-color: #ff0000;
+border: solid 1px #ff0000;
+}
+
+.intermediate {
+color: #ff0000;
+background-color: #ffff00;
+border: solid 1px #ff0000;
+}
+
+.unselected {
+color: #ff0000;
+background-color: #ffffff;
+border: solid 1px #ff0000;
+cursor: pointer;
+}
+
+.unselected:hover {
+color: #ffffff;
+background-color: #ffaaaa;
+}
+
+.button_yes {
+background-color: #33cc00;
+border: solid 3px #009900;
+color: #ffffff;
+padding: 5px;
+font: 0.8em;
+cursor: pointer;
+}
+
+.button_yes:hover {
+background-color: #33ff00;
+}
+
+.button_no {
+background-color: #ff5555;
+border: solid 3px #cc0000;
+color: #ffffff;
+padding: 5px;
+font: 0.8em;
+cursor: pointer;
+}
+
+.button_no:hover {
+background-color: #ff0000;
+}
+
+.cloud_status {
+margin-right: 12px;
+padding: 0px;
+float: left;
+}
+
+#vmserver {
+width: 55%;
+margin-left: 10px;
+}
+
+#storage {
+width: 33%;
+margin-left: 30px;
+}
+
+.hidden {
+display: none;
+}
+
+.disabled {
+background-color: #cccccc;
+border: solid 5px #aaaaaa;
+color: #ffffff;
+text-align: center;
+font-size: 1.5em;
+width:95%;
+height:80px;
+padding-top: 50px;
+}
+

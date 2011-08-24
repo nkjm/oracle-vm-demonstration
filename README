@@ -1,0 +1,6 @@
+SOFTWARE:
+    Oracle VM Demonstration
+
+Overview:
+    This is a web UI to demonstrate how fast Oracle VM can create VM and dynamic resource management levereging ZFS features.
+    This program is written mainly in php and partially in python and need to install special version of virtzfs on ZFS Server. The special version of virtzfs is included in this repository.
